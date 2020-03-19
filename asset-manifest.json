@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b05096.chunk.css",
-    "main.js": "/static/js/main.b76f1119.chunk.js",
-    "main.js.map": "/static/js/main.b76f1119.chunk.js.map",
+    "main.css": "/static/css/main.0aa39830.chunk.css",
+    "main.js": "/static/js/main.2d3cbc15.chunk.js",
+    "main.js.map": "/static/js/main.2d3cbc15.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
-    "static/js/2.35edf18d.chunk.js": "/static/js/2.35edf18d.chunk.js",
-    "static/js/2.35edf18d.chunk.js.map": "/static/js/2.35edf18d.chunk.js.map",
+    "static/js/2.e4789f9b.chunk.js": "/static/js/2.e4789f9b.chunk.js",
+    "static/js/2.e4789f9b.chunk.js.map": "/static/js/2.e4789f9b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.836a0d9927dcd9ae8b7f75fc3507788d.js": "/precache-manifest.836a0d9927dcd9ae8b7f75fc3507788d.js",
+    "precache-manifest.161a5a1f11e77a190f849744053104e1.js": "/precache-manifest.161a5a1f11e77a190f849744053104e1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.35edf18d.chunk.js.LICENSE.txt": "/static/js/2.35edf18d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/main.0aa39830.chunk.css.map": "/static/css/main.0aa39830.chunk.css.map",
+    "static/js/2.e4789f9b.chunk.js.LICENSE.txt": "/static/js/2.e4789f9b.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/static/media/background.72d463bf.jpg",
+    "static/media/expo-logo.png": "/static/media/expo-logo.310707c5.png",
+    "static/media/mockup-hashtags-copied.png": "/static/media/mockup-hashtags-copied.e48c9a56.png",
+    "static/media/mockup-hashtags.png": "/static/media/mockup-hashtags.479b26d2.png",
+    "static/media/mockup-home-food.png": "/static/media/mockup-home-food.f5bd4e00.png",
+    "static/media/mockup-home-sports.png": "/static/media/mockup-home-sports.a00bba92.png",
+    "static/media/node-logo.png": "/static/media/node-logo.9100f2eb.png",
+    "static/media/react-logo.png": "/static/media/react-logo.580ffd26.png",
+    "static/media/ts-logo.png": "/static/media/ts-logo.de67947c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
-    "static/js/2.35edf18d.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.b76f1119.chunk.js"
+    "static/js/2.e4789f9b.chunk.js",
+    "static/css/main.0aa39830.chunk.css",
+    "static/js/main.2d3cbc15.chunk.js"
   ]
 }
