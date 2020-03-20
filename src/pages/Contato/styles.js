@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-const windowWidth = window.innerWidth;
-
 export const FormContainer = styled.form`
   margin-top: 30px;
   display: flex;

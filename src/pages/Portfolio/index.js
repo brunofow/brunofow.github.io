@@ -1,11 +1,8 @@
 import React from 'react';
-import path from 'path';
 
 import Header from '../../components/Header';
 import Project from '../../components/Project';
 import Techs from '../../components/Techs';
-
-import api from '../../services/api';
 
 import { Container, SubTitle, Presentation, NavigationButton } from '../../globalStyles';
 import { Projects, ProjectLink, TopicTitle, DownloadContainer, DownloadButton } from './styles';
@@ -63,7 +60,7 @@ export default function Portfolio({ history }) {
         <SubTitle>Portfólio</SubTitle>
         <Presentation>
           Este é o meu portfólio, a maioria das aplicações aqui, foram desenvolvidas em três partes: Back-End(Api), Front-End(Web) e Mobile. <br />
-          Eu gostaria muito de um feedback, então se sentir vontade, me mande alguma dica, ou algo do tipo, ficarei muito feliz 😁.
+          Eu gostaria muito de um feedback, então se sentir vontade, me mande alguma dica, ou algo do tipo, ficarei muito feliz <span role="img" aria-label="Emoji sorrindo" >😁</span>.
         </Presentation>
         <NavigationButton onClick={() => history.push('/contato')}>Contato</NavigationButton>
         <Projects>
@@ -76,7 +73,7 @@ export default function Portfolio({ history }) {
           <TopicTitle>Resumo</TopicTitle>
           <Presentation>
             A idéia deste aplicativo, é facilitar para quem posta com frequência no Instagram, e utiliza Hashtags para aumentar o alcance dos posts! <br />
-            Basta escolher uma categoria, e clicar no botão copiar, as hashtags ja vão estar no clipboard 😉. <br />
+            Basta escolher uma categoria, e clicar no botão copiar, as hashtags ja vão estar no clipboard <span role="img" aria-label="Emoji Piscando" >😉</span>. <br />
             <a href="https://github.com/brunofow/hashtagram-api" target="_blank" style={{ color: '#000000'}} rel="noopener noreferrer" >A api foi feita em NodeJs</a> <br />
             E o aplicativo, utilizando React Native, ambos em Typescript. <br />
             <a href="https://hashtagram-admin.netlify.com" target="_blank" style={{color: '#000000'}} rel="noopener noreferrer" >Tem também um site com React.Js</a>, mas este é só para cadastro das Hashtags.

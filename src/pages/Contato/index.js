@@ -60,7 +60,7 @@ export default function Contato({ history }) {
         <SubTitle>Contato</SubTitle>
         <Presentation>
           Muito obrigado por tirar um tempo para ver meus trabalhos. Caso queira fazer contato comigo, enviando um feedback ou só bater um papo mesmo, é só preencher o formulário abaixo.
-          Vou ficar muito feliz com sua mensagem 😄.
+          Vou ficar muito feliz com sua mensagem <span role="img" aria-label="Sorriso" >😄</span>.
         </Presentation>
         <NavigationButton onClick={() => history.push('/portfolio')} >Portfólio</NavigationButton>
         <FormContainer onSubmit={event => handleSubmit(event)} >

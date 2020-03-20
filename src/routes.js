@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
@@ -8,9 +8,11 @@ import Contato from './pages/Contato'
 export default function Routes() {
   return (
     <BrowserRouter>
-      <Route path="/" exact component={Home} />
-      <Route path="/portfolio" exact component={Portfolio} />
-      <Route path="/contato" exact component={Contato} />
+      <Switch>
+        <Route path={process.env.PUBLIC_URL + '/' } exact component={Home} />
+        <Route path={process.env.PUBLIC_URL + "/portfolio"} exact component={Portfolio} />
+        <Route path={process.env.PUBLIC_URL + "/contato"} exact component={Contato} />
+      </Switch>
     </BrowserRouter>
   )
 }
