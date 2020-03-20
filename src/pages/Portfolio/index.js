@@ -1,8 +1,11 @@
 import React from 'react';
+import path from 'path';
 
 import Header from '../../components/Header';
 import Project from '../../components/Project';
 import Techs from '../../components/Techs';
+
+import api from '../../services/api';
 
 import { Container, SubTitle, Presentation, NavigationButton } from '../../globalStyles';
 import { Projects, ProjectLink, TopicTitle, DownloadContainer, DownloadButton } from './styles';
@@ -53,7 +56,6 @@ export default function Portfolio({ history }) {
       logo: tsLogo
     }
   ];
-
   return (
     <>
       <Header history={history} />
@@ -63,7 +65,7 @@ export default function Portfolio({ history }) {
           Este é o meu portfólio, a maioria das aplicações aqui, foram desenvolvidas em três partes: Back-End(Api), Front-End(Web) e Mobile. <br />
           Eu gostaria muito de um feedback, então se sentir vontade, me mande alguma dica, ou algo do tipo, ficarei muito feliz 😁.
         </Presentation>
-        <NavigationButton>Contato</NavigationButton>
+        <NavigationButton onClick={() => history.push('/contato')}>Contato</NavigationButton>
         <Projects>
           <ProjectLink href="https://github.com/brunofow/Hashtagram" target="_blank" rel="noopener noreferrer" >
             <SubTitle>Hashtagram</SubTitle>
@@ -81,7 +83,7 @@ export default function Portfolio({ history }) {
           </Presentation>
           <DownloadContainer>
             Caso queira testar, é só baixar o aplicativo e instalar no seu celular.
-            <DownloadButton href="../../apks/Hashtagram.apk" download>Download Android</DownloadButton>
+            <DownloadButton href="https://brunofow-api.herokuapp.com/download?appName=Hashtagram" >Download Android</DownloadButton>
           </DownloadContainer>
         </Projects>
       </Container>
